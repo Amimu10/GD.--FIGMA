@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Figma</title>
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap"
+        rel="stylesheet">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <!----header---->
+    <header>
+        <div class="wrapper">
+            <nav class="d-flex scrolled">
+                <div class="logo"> <a href="#">GD.</a></div>
+                <ul class="mt-3">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#" class="btn dark">Enrol Now</a></li>
+                </ul>
+            </nav>
+            <div class="hero-section">
+                <div class="left">
+                    <h1>Learn the art of<br> Game Dev</h1>
+                    <p>This is a comprehensive course on Game Development. You will learn everything from
+                        generating an idea to publishing your games to different platforms.</p>
+                    <a href="#" class="btn light" style="margin-top: -40px;">
+                        <img src="images/button-icon.png" alt="" class="enrol-icon">
+                        Enrol Now
+                    </a>
+                </div>
+                <div class="right">
+                    <img src="images/hero-image.png" alt="" class="hero-img">
+                    <div class="achivement-cards">
+                        <div class="achivement-card students-enrolled">
+                            <div class="content">
+                                <h3>32K</h3>
+                                <p>Students Enrolled</p>
+                            </div>
+                            <div class="bg"></div>
+                        </div>
+                        <div class="achivement-card overall-rating">
+                            <div class="content box">
+                                <h3>4.7</h3>
+                                <img src="images/emojione_star.png" alt="" class="star">
+                                <p class="rating">Overall Rating</p>
+                            </div>
+                            <div class="bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---testimonial---->
+    <div class="wrapper">
+        <section class="testimonial-section">
+            <div class="left pt-5">
+                <div class="testimonial-card">
+                    <div class="content">
+                        This is a great course. It helped me a lot.<br> Thank you :)
+                    </div>
+                    <div class="info">
+                        <div class="info-text">
+                            <h4>Jane Cooper</h4>
+                            <p class="company">Developer, Sony</p>
+                        </div>
+                        <img src="images/testimonial1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="testimonial-card">
+                    <div class="content">
+                        Amazing Work! Well done!
+                    </div>
+                    <div class="info">
+                        <div class="info-text">
+                            <h4>Jacob Jones</h4>
+                            <p class="company">Designer, Facebook</p>
+                        </div>
+                        <img src="images/testimonial2.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="right">
+                <h2>What our students<br> say</h2>
+                <p>All students get access to all the videos and also the source code of<br> the projects.</p>
+                <p>You will also have access to a private Discord channel where you can<br>discuss your doubts.</p>
+                <a href="#" class="btn light desktop-btn">Learn More</a>
+            </div>
+            <a href="#" class="btn light mobile-btn">Learn More</a>
+        </section>
+    </div>
+    <!---courses--->
+    <section class="courses-section">
+        <div class="wrapper">
+            <h2 class="light text-white text-center pt-5">Our Courses</h2>
+            <div class="course-cards mt-5 justify-content-center d-flex">
+                <div class="course-card">
+                    <img src="images/course1.png" alt="">
+                    <div class="info d-flex">
+                        <h3>Game Design Essentials</h3>
+                        <div class="duration d-flex">
+                            <img src="images/clock.png" alt="">
+                            <h3>8 HRS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="images/course2.png" alt="">
+                    <div class="info">
+                        <h3>Unity Game Engine<br> Fundamentals</h3>
+                        <div class="duration" style="   margin-top: -35px;
+                        margin-left: 250px;font-size: 13px;">
+                            <img src="images/clock.png" alt="">
+                            <h3>8 HRS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn light text-center mt-5" style="margin-right:190px;">All Courses</a>
+        </div>
+    </section>
+    <!---app-->
+    <div class="wrapper">
+        <section class="app-section text-center">
+            <h2 class="font-weight-bold">Get our App</h2>
+            <p>You can use our App for better experience on smartphones</p>
+            <div class="app-buttons d-flex justify-content-center" style="gap:28px">
+                <div class="app-btn">
+                    <a href="#" class="btn"></a><img src="images/appstore.png" alt="">
+                    <span>App Store</span></a>
+                </div>
+                <div class="app-btn">
+                    <a href="#" class="btn"></a><img src="images/googleplay.png" alt="">
+                    <span>Google Play</span></a>
+                </div>
+            </div>
+        </section>
+        <!---footer-->
+        <footer>
+            <div class="links-container d-flex pt-5 justify-content-center" style="gap: 80px;">
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Course</h3>
+                    <ul>
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">All Courses</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><span class="text-center">contact@email.com</span></li>
+                    </ul>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook text-white text-center"></i></a>
+                        <a href="#"><i class="fab fa-instagram text-white text-center"></i></a>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Email Address" class="p-text">
+                        <button class="submit-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="text-center py-5">This website is developed by Amimul Ahsan© 2021</p>
+    </div>
+    </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
